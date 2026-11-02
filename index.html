@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VEGAMAN Plays — PC gaming in Hinglish. Minecraft, Roblox, horror, racing, survival, adventures and more.">
+  <meta name="theme-color" content="#090d0c">
+  <title>VEGAMAN Plays | Play More. Explore More.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-glow"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="VEGAMAN Plays home">
+      <img src="assets/logo.svg" alt="" class="brand-mark">
+      <span>VEGAMAN <b>PLAYS</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a class="nav-subscribe" id="navSubscribe" href="#" target="_blank" rel="noopener">Subscribe ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> WELCOME TO THE GAME ZONE</div>
+        <h1>PLAY MORE.<br><span>EXPLORE MORE.</span><br>GAME ON.</h1>
+        <p class="hero-lead">Your next gaming adventure starts here.</p>
+        <p class="hero-description">Minecraft, Roblox, horror, racing, survival and more — PC gaming in Hinglish, with challenges, funny moments and new discoveries.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" id="heroSubscribe" href="#" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
+          <a class="button button-secondary" href="#videos">Explore videos <span>↓</span></a>
+        </div>
+        <div class="hero-meta"><span>🎮 VARIETY PC GAMING</span><span>🇮🇳 HINGLISH CONTENT</span></div>
+      </div>
+      <div class="hero-art" aria-label="VEGAMAN Plays gaming graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-v">V<span>+</span></div>
+        <div class="floating-tag tag-one">MINECRAFT</div>
+        <div class="floating-tag tag-two">ROBLOX</div>
+        <div class="floating-tag tag-three">PC GAMING</div>
+        <div class="hero-caption">PRESS START<br><strong>AND PLAY</strong></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Channel tagline">
+      <div> <span>✦</span> MINECRAFT <span>✦</span> ROBLOX <span>✦</span> HORROR GAMES <span>✦</span> RACING <span>✦</span> SURVIVAL <span>✦</span> ADVENTURE <span>✦</span> MINECRAFT <span>✦</span> ROBLOX <span>✦</span> HORROR GAMES <span>✦</span> RACING <span>✦</span> SURVIVAL <span>✦</span> ADVENTURE</div>
+    </section>
+
+    <section class="section" id="videos">
+      <div class="section-heading">
+        <div><p class="eyebrow">FRESH FROM THE CHANNEL</p><h2>Latest <span>Videos</span></h2></div>
+        <a class="text-link" id="allVideos" href="#" target="_blank" rel="noopener">View YouTube channel ↗</a>
+      </div>
+      <div class="video-grid" id="videoGrid">
+        <article class="video-card">
+          <div class="video-thumb thumb-minecraft"><span class="thumb-label">MINECRAFT</span><span class="play-icon">▶</span><span class="thumb-title">SURVIVAL<br>CHALLENGE</span></div>
+          <div class="video-info"><span class="video-type">CHALLENGE</span><h3>Minecraft Survival Challenge</h3><p>Can I survive with only one heart?</p></div>
+        </article>
+        <article class="video-card">
+          <div class="video-thumb thumb-roblox"><span class="thumb-label">ROBLOX</span><span class="play-icon">▶</span><span class="thumb-title">FIRST TIME<br>PLAYING!</span></div>
+          <div class="video-info"><span class="video-type">GAMEPLAY</span><h3>Trying a New Roblox Game</h3><p>Let's see what happens in this game!</p></div>
+        </article>
+        <article class="video-card">
+          <div class="video-thumb thumb-horror"><span class="thumb-label">HORROR</span><span class="play-icon">▶</span><span class="thumb-title">DON'T<br>LOOK BACK</span></div>
+          <div class="video-info"><span class="video-type">HORROR GAME</span><h3>Can I Survive This Horror Game?</h3><p>Lights off, headphones on. Big mistake!</p></div>
+        </article>
+      </div>
+      <p class="section-note">These are sample video cards. Add your real video links and titles in <code>script.js</code>.</p>
+    </section>
+
+    <section class="section games-section" id="games">
+      <div class="section-heading">
+        <div><p class="eyebrow">WHAT ARE WE PLAYING?</p><h2>Choose your <span>Adventure</span></h2></div>
+      </div>
+      <div class="game-grid">
+        <a class="game-card game-minecraft" href="#videos"><span class="game-icon">▦</span><span class="game-number">01 / BUILD & SURVIVE</span><h3>Minecraft</h3><p>Build, explore, survive and take on crazy challenges.</p><span class="card-arrow">↗</span></a>
+        <a class="game-card game-roblox" href="#videos"><span class="game-icon">◇</span><span class="game-number">02 / PLAY & DISCOVER</span><h3>Roblox</h3><p>Explore fun experiences, obbies, horror and more.</p><span class="card-arrow">↗</span></a>
+        <a class="game-card game-horror" href="#videos"><span class="game-icon">◉</span><span class="game-number">03 / FACE YOUR FEAR</span><h3>Horror</h3><p>Scary games, unexpected jumpscares and reactions.</p><span class="card-arrow">↗</span></a>
+        <a class="game-card game-racing" href="#videos"><span class="game-icon">➤</span><span class="game-number">04 / FULL THROTTLE</span><h3>Racing</h3><p>Speed, stunts, cars and competitive races.</p><span class="card-arrow">↗</span></a>
+        <a class="game-card game-adventure" href="#videos"><span class="game-icon">✧</span><span class="game-number">05 / GO BEYOND</span><h3>Adventure</h3><p>Open worlds, missions and unforgettable journeys.</p><span class="card-arrow">↗</span></a>
+        <a class="game-card game-more" href="#videos"><span class="game-icon">＋</span><span class="game-number">06 / ALWAYS SOMETHING NEW</span><h3>And More</h3><p>Simulation, survival, free PC games and trending titles.</p><span class="card-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="community" id="about">
+      <div class="community-mark">V<span>+</span></div>
+      <div class="community-copy"><p class="eyebrow">JOIN THE COMMUNITY</p><h2>One channel.<br><span>Infinite adventures.</span></h2><p>Welcome to VEGAMAN Plays! This is your place for entertaining PC gaming in Hinglish. Subscribe, join the community and let's make every game an adventure.</p><a class="button button-primary" id="communitySubscribe" href="#" target="_blank" rel="noopener">Join the VEGAMAN squad ↗</a></div>
+    </section>
+
+    <section class="mini-cta">
+      <p class="eyebrow">READY PLAYER ONE?</p>
+      <h2>Your next favourite video is waiting.</h2>
+      <a class="button button-primary" id="bottomSubscribe" href="#" target="_blank" rel="noopener">Subscribe now ↗</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><img src="assets/logo.svg" alt="" class="brand-mark"><span>VEGAMAN <b>PLAYS</b></span></a>
+    <p>PLAY MORE. EXPLORE MORE. GAME ON.</p>
+    <span>© <span id="year"></span> VEGAMAN Plays. Made for gamers.</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
