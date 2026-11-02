@@ -3,7 +3,7 @@
   1. Replace CHANNEL_URL with your real YouTube channel URL.
   2. Add your real video details in the VIDEOS array if you want clickable video cards.
 */
-const CHANNEL_URL = "https://www.youtube.com/@YOUR_CHANNEL_HANDLE";
+const CHANNEL_URL = "https://www.youtube.com/channel/UCslcNfLVRcibZjh2Z7ow8UA";
 
 const VIDEOS = [
   { title: "Minecraft Survival Challenge", description: "Can I survive with only one heart?", type: "CHALLENGE", url: "", theme: "minecraft", thumb: "SURVIVAL|CHALLENGE" },
